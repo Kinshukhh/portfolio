@@ -1,0 +1,1 @@
+This repository contains a small static portfolio website showcasing projects (Gestro, GestroWin, QRLogger, DriveSync, Gestro.Dev).

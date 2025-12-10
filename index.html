@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kinshuk Aggarwal — Android & Software Developer</title>
+
+  <meta name="description" content="Android & Software Developer building privacy-focused tools for fast, reliable file transfer, QR-based attendance systems, and automation utilities. Creator of Gestro, GestroWin, QRLogger, and DriveSync.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner" role="banner">
+      <div class="brand">
+        <h1>Kinshuk Aggarwal</h1>
+        <p class="tag">Android & Software Developer — Privacy-Focused Tools for File Transfer & Automation</p>
+      </div>
+
+      <nav class="nav" role="navigation" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+        <button id="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode" title="Toggle theme">
+          <span class="icon" aria-hidden="true">🌙</span>
+          <span class="visually-hidden">Toggle dark mode</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <section class="hero" id="home">
+      <div>
+        <h2>Building Reliable, Privacy-Focused Systems for File Transfer, Sync & Event Automation</h2>
+        <p class="lead">
+          I design Android and desktop tools that deliver secure cross-device photo transfer, QR-based event tracking, automated backup, and production-ready workflow utilities. Built for performance, accuracy, and real-world reliability.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="#projects">See Projects</a>
+          <a class="btn btn-outline" href="#contact">Get in touch</a>
+        </div>
+      </div>
+
+      <aside class="quick-stats">
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div style="background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow-sm)">
+            <strong>Recent Work</strong>
+            <div style="color:var(--muted);margin-top:6px;font-size:0.95rem">
+              Gestro — Gesture-Based Cross-Device File Transfer
+            </div>
+          </div>
+
+          <div style="background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow-sm)">
+            <strong>Tech Stack</strong>
+            <div style="color:var(--muted);margin-top:6px;font-size:0.95rem">
+              Kotlin · Python · PyQt · CameraX · SQLite · Local Networking
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+
+        <div class="controls">
+          <div class="search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="opacity:0.6;margin-right:6px">
+              <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            <input id="search" type="search" placeholder="Search projects or tech..." />
+            <button class="clear-btn" id="clear-search">&times;</button>
+          </div>
+
+          <select id="tag-filter">
+            <option value="all">All tags</option>
+          </select>
+        </div>
+      </div>
+
+      <ul id="projects-list" class="projects-grid"></ul>
+    </section>
+
+
+    <section id="about">
+      <h2>About</h2>
+
+      <p>
+        I'm an Android & Software Developer with hands-on experience creating production-level apps,
+        automation utilities, and event-scale QR systems. My work includes gesture-based file transfer (Gestro),
+        desktop receivers (GestroWin), real-time sync tools (DriveSync), and high-accuracy attendance solutions
+        used in events managing 3,000+ scans with 99% accuracy.
+      </p>
+
+      <p>
+        I focus on building fast, private, and reliable tools that solve real-world problems —
+        from cross-device communication to automated backup pipelines and event operations.
+      </p>
+
+      <p><strong>Technologies I use:</strong><br>
+        Kotlin · Python · PyQt · CameraX · SQLite · Git & GitHub · Local Server Networking · Automation · Google Sheets API · Google Drive API · Google Cloud · REST APIs · AI Prompting
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>Email: <a href="mailto:gesturetransfer@gmail.com">gesturetransfer@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Kinshukhh" target="_blank">github.com/Kinshukhh</a></p>
+
+      <p>
+        <a href="assets/resume.pdf" download class="btn">Download Resume</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Kinshuk Aggarwal — <a href="https://www.gestro.dev" aria-label="Visit gestro.dev">gestro.dev</a></p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
