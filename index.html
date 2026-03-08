@@ -4,125 +4,366 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Kinshuk Aggarwal — Android & Software Developer</title>
+  <meta name="description" content="Android & Software Developer specialising in privacy-focused file transfer, QR attendance systems, salon-tech platforms, and automation utilities. Creator of Gestro, Naai, QRLogger, DriveSync.">
+  <meta name="keywords" content="Android Developer, React Native, Kotlin, Python, Firebase, Gestro, Naai, Portfolio">
+  <meta property="og:title" content="Kinshuk Aggarwal — Android & Software Developer">
+  <meta property="og:description" content="Building production-ready Android apps, cross-platform tools, and automation systems.">
+  <meta property="og:type" content="website">
 
-  <meta name="description" content="Android & Software Developer building privacy-focused tools for fast, reliable file transfer, QR-based attendance systems, and automation utilities. Creator of Gestro, GestroWin, QRLogger, and DriveSync.">
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kinshuk Aggarwal",
+    "jobTitle": "Android & Software Developer",
+    "email": "gesturetransfer@gmail.com",
+    "url": "https://www.gestro.dev",
+    "sameAs": ["https://github.com/Kinshukhh"]
+  }
+  </script>
 </head>
 
 <body>
-  <header class="site-header">
-    <div class="container header-inner" role="banner">
-      <div class="brand">
-        <h1>Kinshuk Aggarwal</h1>
-        <p class="tag">Android & Software Developer — Privacy-Focused Tools for File Transfer & Automation</p>
-      </div>
+  <!-- ── HEADER ─────────────────────────────────────────────── -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#home" class="brand" aria-label="Kinshuk Aggarwal home">
+        <span class="brand-name">Kinshuk Aggarwal</span>
+        <span class="brand-dot"></span>
+        <span class="brand-role">Android & Software Developer</span>
+      </a>
 
       <nav class="nav" role="navigation" aria-label="Primary navigation">
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-
-        <button id="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode" title="Toggle theme">
-          <span class="icon" aria-hidden="true">🌙</span>
+        <button id="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
           <span class="visually-hidden">Toggle dark mode</span>
         </button>
       </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
-  <main class="container" id="main">
+  <main id="main">
+    <!-- ── HERO ──────────────────────────────────────────────── -->
     <section class="hero" id="home">
-      <div>
-        <h2>Building Reliable, Privacy-Focused Systems for File Transfer, Sync & Event Automation</h2>
-        <p class="lead">
-          I design Android and desktop tools that deliver secure cross-device photo transfer, QR-based event tracking, automated backup, and production-ready workflow utilities. Built for performance, accuracy, and real-world reliability.
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="grid-lines"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Available for opportunities
+        </div>
+
+        <h1 class="hero-title">
+          Building <span class="gradient-text">Reliable</span>,<br>
+          Production-Ready<br>
+          <span class="gradient-text">Software Systems</span>
+        </h1>
+
+        <p class="hero-sub">
+          Android apps, cross-platform tools, and automation systems — built for real-world performance, privacy, and scale. From gesture-based file transfer to salon-tech platforms managing live bookings.
         </p>
 
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>10+</strong>
+            <span>Projects shipped</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>3K+</strong>
+            <span>Event scans (99% accuracy)</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>500+</strong>
+            <span>Salon partners on Naai</span>
+          </div>
+        </div>
+
         <div class="cta-row">
-          <a class="btn" href="#projects">See Projects</a>
-          <a class="btn btn-outline" href="#contact">Get in touch</a>
+          <a class="btn btn-primary" href="#projects">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+            View Projects
+          </a>
+          <a class="btn btn-ghost" href="assets/resume.pdf" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+            Resume
+          </a>
+          <a class="btn btn-ghost" href="https://github.com/Kinshukhh" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
         </div>
       </div>
 
-      <aside class="quick-stats">
-        <div style="display:flex;flex-direction:column;gap:8px">
-          <div style="background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow-sm)">
-            <strong>Recent Work</strong>
-            <div style="color:var(--muted);margin-top:6px;font-size:0.95rem">
-              Gestro — Gesture-Based Cross-Device File Transfer
-            </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="code-card">
+          <div class="code-header">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="code-filename">gestro.kt</span>
           </div>
+          <pre class="code-body"><code><span class="kw">fun</span> <span class="fn">transferFile</span>() {
+  <span class="kw">val</span> gesture = detectGesture()
+  <span class="kw">val</span> target = findDevice()
 
-          <div style="background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow-sm)">
-            <strong>Tech Stack</strong>
-            <div style="color:var(--muted);margin-top:6px;font-size:0.95rem">
-              Kotlin · Python · PyQt · CameraX · SQLite · Local Networking
-            </div>
-          </div>
+  socket.<span class="fn">connect</span>(target)
+  file.<span class="fn">sendChunked</span>(
+    onProgress = { <span class="fn">updateUI</span>(it) }
+  )
+}</code></pre>
         </div>
-      </aside>
-    </section>
 
-    <section id="projects" class="projects-section">
-      <div class="section-head">
-        <h2>Featured Projects</h2>
-
-        <div class="controls">
-          <div class="search">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="opacity:0.6;margin-right:6px">
-              <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-            </svg>
-            <input id="search" type="search" placeholder="Search projects or tech..." />
-            <button class="clear-btn" id="clear-search">&times;</button>
-          </div>
-
-          <select id="tag-filter">
-            <option value="all">All tags</option>
-          </select>
+        <div class="tech-orbit">
+          <div class="orbit-item" style="--i:0">Kotlin</div>
+          <div class="orbit-item" style="--i:1">React Native</div>
+          <div class="orbit-item" style="--i:2">Firebase</div>
+          <div class="orbit-item" style="--i:3">Python</div>
+          <div class="orbit-item" style="--i:4">SQLite</div>
         </div>
       </div>
-
-      <ul id="projects-list" class="projects-grid"></ul>
     </section>
 
+    <!-- ── PROJECTS ──────────────────────────────────────────── -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Work</p>
+            <h2 class="section-title">Featured Projects</h2>
+          </div>
 
-    <section id="about">
-      <h2>About</h2>
+          <div class="controls">
+            <div class="search-wrap">
+              <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              <input
+                id="search"
+                type="search"
+                placeholder="Search projects or tech…"
+                autocomplete="off"
+                spellcheck="false"
+                aria-label="Search projects"
+              />
+              <button class="clear-btn" id="clear-search" aria-label="Clear search" title="Clear">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
+              </button>
+            </div>
 
-      <p>
-        I'm an Android & Software Developer with hands-on experience creating production-level apps,
-        automation utilities, and event-scale QR systems. My work includes gesture-based file transfer (Gestro),
-        desktop receivers (GestroWin), real-time sync tools (DriveSync), and high-accuracy attendance solutions
-        used in events managing 3,000+ scans with 99% accuracy.
-      </p>
+            <select id="tag-filter" aria-label="Filter by tag">
+              <option value="all">All tags</option>
+            </select>
+          </div>
+        </div>
 
-      <p>
-        I focus on building fast, private, and reliable tools that solve real-world problems —
-        from cross-device communication to automated backup pipelines and event operations.
-      </p>
-
-      <p><strong>Technologies I use:</strong><br>
-        Kotlin · Python · PyQt · CameraX · SQLite · Git & GitHub · Local Server Networking · Automation · Google Sheets API · Google Drive API · Google Cloud · REST APIs · AI Prompting
-      </p>
+        <ul id="projects-list" class="projects-grid" role="list" aria-live="polite"></ul>
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
+    <!-- ── SKILLS ────────────────────────────────────────────── -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <p class="section-label">Expertise</p>
+        <h2 class="section-title">Skills & Technologies</h2>
 
-      <p>Email: <a href="mailto:gesturetransfer@gmail.com">gesturetransfer@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/Kinshukhh" target="_blank">github.com/Kinshukhh</a></p>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <div class="skill-group-header">
+              <div class="skill-group-icon">📱</div>
+              <h3>Mobile Development</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip chip-primary">Kotlin</span>
+              <span class="chip chip-primary">Android SDK</span>
+              <span class="chip chip-primary">React Native</span>
+              <span class="chip">CameraX</span>
+              <span class="chip">Jetpack</span>
+              <span class="chip">Firebase</span>
+            </div>
+          </div>
 
-      <p>
-        <a href="assets/resume.pdf" download class="btn">Download Resume</a>
-      </p>
+          <div class="skill-group">
+            <div class="skill-group-header">
+              <div class="skill-group-icon">🖥️</div>
+              <h3>Desktop & Backend</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip chip-primary">Python</span>
+              <span class="chip chip-primary">PyQt6</span>
+              <span class="chip chip-primary">SQLite</span>
+              <span class="chip">Socket Programming</span>
+              <span class="chip">Threading</span>
+              <span class="chip">Automation</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-header">
+              <div class="skill-group-icon">☁️</div>
+              <h3>Cloud & APIs</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip chip-primary">Firebase / Firestore</span>
+              <span class="chip chip-primary">Google Cloud</span>
+              <span class="chip">Google Sheets API</span>
+              <span class="chip">Google Drive API</span>
+              <span class="chip">OAuth2</span>
+              <span class="chip">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-header">
+              <div class="skill-group-icon">🌐</div>
+              <h3>Web & Tooling</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip chip-primary">HTML / CSS / JS</span>
+              <span class="chip">Git & GitHub</span>
+              <span class="chip">Local Networking</span>
+              <span class="chip">SEO</span>
+              <span class="chip">AI Prompting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ─────────────────────────────────────────────── -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="section-label">Background</p>
+          <h2 class="section-title">About Me</h2>
+
+          <p>
+            I'm an Android & Software Developer with hands-on experience creating production-level apps,
+            automation utilities, and event-scale systems. My work spans gesture-based file transfer (Gestro),
+            desktop companions (GestroWin), real-time folder sync (DriveSync), QR attendance systems managing
+            3,000+ scans at 99% accuracy, and a full salon-tech platform (Naai) with both customer and partner apps.
+          </p>
+          <p>
+            I focus on building fast, private, and reliable tools that solve real-world problems —
+            from cross-device communication to automated backup pipelines, event operations, and marketplace infrastructure.
+          </p>
+          <p>
+            Every project I ship is production-ready: clean architecture, real users, measurable outcomes.
+          </p>
+
+          <a href="assets/resume.pdf" download class="btn btn-primary" style="margin-top:20px;display:inline-flex;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+            Download Resume
+          </a>
+        </div>
+
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon">🏆</div>
+            <div>
+              <strong>Production Scale</strong>
+              <p>Apps in active use — Play Store deployments, live event operations, and a growing salon marketplace.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">🔒</div>
+            <div>
+              <strong>Privacy-First Engineering</strong>
+              <p>Local-network file transfer without cloud dependency — zero data leaves the device unnecessarily.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">⚡</div>
+            <div>
+              <strong>End-to-End Ownership</strong>
+              <p>From architecture and UI to backend, deployment, and documentation — full-stack delivery every time.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">📊</div>
+            <div>
+              <strong>Measurable Impact</strong>
+              <p>99% scan accuracy, 3,000+ event scans processed, 500+ active salon partners on Naai platform.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ───────────────────────────────────────────── -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-inner">
+          <div class="contact-text">
+            <p class="section-label">Let's Connect</p>
+            <h2 class="section-title">Get in Touch</h2>
+            <p>Open to internships, full-time roles, and interesting project collaborations. I respond promptly.</p>
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:gesturetransfer@gmail.com" class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <span>kinshukaggarwalwork@gmail.com</span>
+              </div>
+              <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <a href="https://github.com/Kinshukhh" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/Kinshukhh</span>
+              </div>
+              <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <a href="https://www.gestro.dev" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+              </div>
+              <div>
+                <strong>Website</strong>
+                <span>gestro.dev</span>
+              </div>
+              <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
+  <!-- ── FOOTER ────────────────────────────────────────────── -->
   <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Kinshuk Aggarwal — <a href="https://www.gestro.dev" aria-label="Visit gestro.dev">gestro.dev</a></p>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Kinshuk Aggarwal</p>
+      <p class="footer-links">
+        <a href="https://www.gestro.dev" target="_blank" rel="noopener">gestro.dev</a>
+        <span>·</span>
+        <a href="https://naai.co.in" target="_blank" rel="noopener">naai.co.in</a>
+        <span>·</span>
+        <a href="https://github.com/Kinshukhh" target="_blank" rel="noopener">GitHub</a>
+      </p>
     </div>
   </footer>
 
