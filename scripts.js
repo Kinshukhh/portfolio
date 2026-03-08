@@ -17,6 +17,23 @@ const PROJECTS = [
     demo: 'https://www.gestro.dev/downloads',
     img: 'assets/gestrowin.png',
     tags: ['desktop', 'python', 'pyqt', 'file-transfer', 'receiver', 'windows-app', 'networking']
+  },{
+    title: 'Naai',
+    short: 'A salon & stylist discovery app that connects customers with expert stylists at top salons nearby. Book appointments, find the right stylist, and manage your beauty routine — all in one place.',
+    tech: ['React Native', 'Firebase', 'Firestore', 'Firebase Auth', 'Push Notifications', 'Google Maps API', 'Real-time Sync'],
+    role: 'Built the full customer-facing mobile app including stylist discovery, booking flow, real-time appointment management, and Firebase backend integration.',
+    demo: 'https://naai.co.in',
+    img: 'https://naai.co.in/redicon.png',
+    tags: ['mobile', 'react-native', 'firebase', 'booking', 'beauty', 'salon', 'android', 'ios', 'realtime']
+  },
+  {
+    title: 'Naai Partners',
+    short: 'A dedicated mobile app for salon owners to manage their presence on the Naai platform — accept bookings, manage services and pricing, track earnings, and communicate with customers in real time.',
+    tech: ['React Native', 'Firebase', 'Firestore', 'Firebase Auth', 'Push Notifications', 'Real-time Dashboard', 'Cloud Functions'],
+    role: 'Engineered the salon partner app including booking management dashboard, service catalogue editor, earnings tracking, QR verification, and automated customer reminders.',
+    demo: 'https://partners.naai.co.in',
+    img: 'https://naai.co.in/partner-logo.png',
+    tags: ['mobile', 'react-native', 'firebase', 'dashboard', 'beauty', 'salon', 'android', 'ios', 'management']
   },
   {
     title: 'QRLogger',
@@ -55,24 +72,7 @@ const PROJECTS = [
     img: 'assets/gestrodev.png',
     tags: ['web', 'landing', 'frontend', 'website']
   },
-  {
-    title: 'Naai',
-    short: 'A salon & stylist discovery app that connects customers with expert stylists at top salons nearby. Book appointments, find the right stylist, and manage your beauty routine — all in one place.',
-    tech: ['React Native', 'Firebase', 'Firestore', 'Firebase Auth', 'Push Notifications', 'Google Maps API', 'Real-time Sync'],
-    role: 'Built the full customer-facing mobile app including stylist discovery, booking flow, real-time appointment management, and Firebase backend integration.',
-    demo: 'https://naai.co.in',
-    img: 'https://naai.co.in/redicon.png',
-    tags: ['mobile', 'react-native', 'firebase', 'booking', 'beauty', 'salon', 'android', 'ios', 'realtime']
-  },
-  {
-    title: 'Naai Partners',
-    short: 'A dedicated mobile app for salon owners to manage their presence on the Naai platform — accept bookings, manage services and pricing, track earnings, and communicate with customers in real time.',
-    tech: ['React Native', 'Firebase', 'Firestore', 'Firebase Auth', 'Push Notifications', 'Real-time Dashboard', 'Cloud Functions'],
-    role: 'Engineered the salon partner app including booking management dashboard, service catalogue editor, earnings tracking, QR verification, and automated customer reminders.',
-    demo: 'https://partners.naai.co.in',
-    img: 'https://naai.co.in/partner-logo.png',
-    tags: ['mobile', 'react-native', 'firebase', 'dashboard', 'beauty', 'salon', 'android', 'ios', 'management']
-  },
+  
   {
     title: 'naai.co.in',
     short: 'Customer-facing website for the Naai platform — find and book expert stylists at top salons, explore services, and get early access to new launches across India.',
