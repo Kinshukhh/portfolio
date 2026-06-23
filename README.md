@@ -7,7 +7,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-naai.co.in-7c3aed?style=for-the-badge)](https://naai.co.in)
+[![Website](https://img.shields.io/badge/🌐%20Portfolio-naai.co.in-7c3aed?style=for-the-badge)](https://naai.co.in)
 [![GitHub Portfolio](https://img.shields.io/badge/🖥️%20GitHub%20Pages-Visit%20Site-6366f1?style=for-the-badge)](https://kinshukhh.github.io/portfolio)
 [![Resume](https://img.shields.io/badge/📄%20Resume-Download%20PDF-f97316?style=for-the-badge)](https://github.com/Kinshukhh/portfolio/raw/main/resume.pdf)
 [![Email](https://img.shields.io/badge/📧%20Email-kinshukaggarwalwork@gmail.com-eab308?style=for-the-badge)](mailto:kinshukaggarwalwork@gmail.com)
