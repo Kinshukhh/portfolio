@@ -178,8 +178,8 @@ Your site will be live at `https://kinshukhh.github.io/portfolio`
 | 📱 Phone | [+91 7973387439](tel:+917973387439) |
 | 📍 Location | Panchkula, Haryana, India |
 | 💻 GitHub | [github.com/kinshukhh](https://github.com/kinshukhh) |
-| 🌐 Portfolio | [naai.co.in](https://naai.co.in) |
-| 🖥️ GitHub Pages | [kinshukhh.github.io/portfolio](https://kinshukhh.github.io/portfolio) |
+| 🌐 Website | [naai.co.in](https://naai.co.in) |
+| 🖥️ Portfolio | [kinshukhh.github.io/portfolio](https://kinshukhh.github.io/portfolio) |
 
 ---
 
